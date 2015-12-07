@@ -11,11 +11,10 @@
 #include "Expression.h"
 using namespace std;
 
-class Expression{
-  //evaluate expression and return string representation of the result
-  virtual string evaluate();
+
+//evaluate expression and return string representation of the result
+virtual string evaluate();
   
-  //prints expression
-  virtual void print();
-  
-}
+//prints expression
+virtual void print();
+
