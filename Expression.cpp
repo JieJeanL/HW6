@@ -10,3 +10,9 @@
 #include <stdio.h>
 #include "Expression.h"
 using namespace std;
+
+//evaluate expression and return string representation of the result
+virtual string evaluate();
+  
+//prints expression
+virtual void print();
